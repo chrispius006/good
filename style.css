@@ -165,7 +165,7 @@ nav .active{
 }
 .goal{
     background:darkslateblue;
-    border: solid 15px gold;
+    border: solid 15px goldenrod;
     border-top-left-radius:100px ;
     border-bottom-left-radius:100px;
     width: 30%;
@@ -180,7 +180,7 @@ nav .active{
     padding-bottom: 0;
 }
 .vision{
-    background:gold;
+    background:goldenrod;
     width: 30%;
     margin-left: 30px;
     border: darkslateblue solid 15px;
@@ -194,7 +194,7 @@ nav .active{
 }
 .mission{
     background:darkslateblue;
-    border: solid 15px gold;
+    border: solid 15px goldenrod;
     border-top-right-radius:100px ;
     border-bottom-right-radius:100px;
     width: 30%;
@@ -208,7 +208,7 @@ nav .active{
 }
 .motto{
     background:darkslateblue;
-    border: solid 15px gold;
+    border: solid 15px goldenrod;
     border-bottom-left-radius:100px ;
     border-bottom-right-radius:100px;
     width: 30%;
@@ -702,7 +702,7 @@ label #cancel{
         width: 85%;
         text-align: center;
         color:white;
-        border:red 2px solid;
+        border:red 3px solid;
      }
     .welc h1{
         font-size: 25px;
