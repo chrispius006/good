@@ -1,10 +1,10 @@
-@import url(webfonts/);
+
 body {
     background-color:#ebe7e7;
     color: black; 
     padding: 0;
     margin: 0;
-    font-size: 18px;
+    font-size: 20px;
     width: 100%;
     line-height: 25px;    
       
@@ -98,7 +98,7 @@ nav .active{
 .sec1, .sec2 {
     margin-left: 30px;
     padding-left: 10px;
-    font-size: 16px; 
+    font-size: 20px; 
     border-left: solid red; 
     border-left-width: 15px;
     line-height: 25px; 
@@ -121,7 +121,7 @@ nav .active{
     padding-left: 0px;
     padding-top: 3px;
     padding-bottom: 3px;
-    font-size: 16px; 
+    font-size: 20px; 
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     margin-right: 10px;
@@ -141,7 +141,7 @@ nav .active{
     padding-left: 0px;
     padding-top: 3px;
     padding-bottom: 3px;
-    font-size: 16px; 
+    font-size: 20px; 
     margin-right: 10px;
     border-left: solid red; 
     border-top-right-radius: 50px;
