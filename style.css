@@ -128,7 +128,7 @@ nav .active{
     border-left: solid red; 
     border-left-width: 15px;
     background: linear-gradient(to right, rgb(219, 210, 210), rgb(148, 93, 93));
-    
+    margin-bottom: 30px;
 }
 .sec3 ol li ul{
     padding-left: 15px; 
@@ -385,6 +385,25 @@ section{
     padding-left: 30px;
     width: 97%; 
 }
+.nurse img, .doctor img{
+    padding-left: 30px;
+    width: 97%; 
+    margin-bottom: 0;
+    
+}
+.nursetxt, .docttxt,.stufftxt, .medtxt {
+    padding-left: 30px;
+    width: 97%; 
+    
+}
+.nursetxt p, .docttxt p,.stufftxt p, .medtxt p{
+    color: white;
+    background: darkslateblue;
+    margin-top: -7px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
 .location{
     background-color: darkslategray;
     text-align: center;
@@ -610,7 +629,7 @@ label #cancel{
       z-index: 1000;
     }
     body img{
-        max-width: 90%;
+        max-width: 93%;
         margin: 0;
         padding: 0;
     }
@@ -790,8 +809,18 @@ label #cancel{
     .info{
         font-size: 13px;
     }
-    .med img, .slider{
+    .slider{
+        padding-left: 15px; 
+    }
+    .med img, .nurse img, .doctor img,.stufftxt,.medtxt,.docttxt,.nursetxt{
         padding-left: 15px;
+        width: 93%;
+    }
+    .med img, .nurse img, .doctor img{
+        height: 230px;
+    }
+    .stufftxt p,.medtxt p,.docttxt p,.nursetxt p{
+        font-size: 18px;
     }
     .slider .slide img{
         height: 90%;
