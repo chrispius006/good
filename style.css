@@ -817,7 +817,7 @@ label #cancel{
         width: 93%;
     }
     .med img, .nurse img, .doctor img{
-        height: 230px;
+        height: auto;
     }
     .stufftxt p,.medtxt p,.docttxt p,.nursetxt p{
         font-size: 18px;
