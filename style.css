@@ -753,7 +753,7 @@ label #cancel{
         font-size: 20px;
         background: black;
         border: none;
-        width: 80.3%;
+        width: 80.7%;
         border-radius: 0;
         margin-bottom: -15px;
         font-family: 'Courier New', Courier, monospace;
@@ -854,7 +854,7 @@ label #cancel{
         font-family: 'Courier New', Courier, monospace;
       }
       .next-btn{
-        margin-right: 21px;
+        margin-right: 9.5px;
         font-size: 20px;
       }
       .prev-btn{
