@@ -170,7 +170,7 @@ nav .active{
     border-bottom-left-radius:100px;
     width: 30%;
     margin-left: 30px;
-
+    
 }
 .goal b h2, .goal p{
     padding:10px;
@@ -185,7 +185,7 @@ nav .active{
     margin-left: 30px;
     border: darkslateblue solid 15px;
 }
-.vision h2, .vision ul{
+.vision h2, .vision p{
     padding:10px;
     padding-left: 40px;
     color: black;
@@ -198,8 +198,6 @@ nav .active{
     border-top-right-radius:100px ;
     border-bottom-right-radius:100px;
     width: 30%;
-    margin-left: 30px;
-
 }
 .mission h2, .mission p{
     padding:10px;
@@ -224,6 +222,9 @@ nav .active{
     color: white;
     padding-top: 0;
     padding-bottom: 0;
+}
+.motto h2{
+    font-size: 25px;
 }
 
 .slider{
@@ -433,7 +434,6 @@ section{
 }
 .layout h2{
     font-size: 25px;
-    color: #000;
 }
 
 .welc{
