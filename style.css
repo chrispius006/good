@@ -177,7 +177,7 @@ nav .active{
 }
 .goal{
     background:darkslateblue;
-    border: solid 15px goldenrod;
+    border: solid 15px rgb(248, 179, 4);
     border-top-left-radius:100px ;
     border-bottom-left-radius:100px;
     width: 30%;
@@ -192,7 +192,7 @@ nav .active{
     padding-bottom: 0;
 }
 .vision{
-    background:goldenrod;
+    background:rgb(248, 179, 4);
     width: 30%;
     margin-left: 30px;
     border: darkslateblue solid 15px;
@@ -206,7 +206,7 @@ nav .active{
 }
 .mission{
     background:darkslateblue;
-    border: solid 15px goldenrod;
+    border: solid 15px rgb(248, 179, 4);
     border-top-right-radius:100px ;
     border-bottom-right-radius:100px;
     margin-left: 30px;
@@ -221,7 +221,7 @@ nav .active{
 }
 .motto{
     background:darkslateblue;
-    border: solid 15px goldenrod;
+    border: solid 15px rgb(248, 179, 4);
     border-bottom-left-radius:100px ;
     border-bottom-right-radius:100px;
     width: 28%;
