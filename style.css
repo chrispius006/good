@@ -851,6 +851,7 @@ label #cancel{
         margin-top: 20px;
         margin-left: 30px;
         padding: 2px;
+        padding-left: 20px;
       }
       .slider .slide .info h2{
         padding-left: 0;
@@ -901,6 +902,9 @@ label #cancel{
     }
     .motto h2{
         font-size: 25px;
+    }
+    .motto p{
+        padding-left: 25px;
     }
     .mission h2{
         color: white;
