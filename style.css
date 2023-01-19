@@ -10,15 +10,18 @@ body {
       
 }
 #but{
-    color: blue;
+    color: gray;
     border: none;
-    font-size: 30px;
+    font-size: 25px;
     background: none;
     font-family: serif;
     cursor: pointer;
 }
 #but:hover, #but:focus{
     color: red;
+}
+#list{
+    z-index: 2;
 }
 
 nav .dropdown{
@@ -35,6 +38,7 @@ header nav{
     background: white;
     width: 100%;
     font-weight:500px;
+    border-bottom: #767676;
     
 }
 .ki img{
@@ -49,14 +53,14 @@ nav ul{
 nav ul li{
     list-style: none;
     padding: 10px;
-    font-size: 30px;
+    font-size: 25px;
     position: relative;
     display: inline-block;   
 }
 nav ul li a{
     text-decoration: none;
     padding: 10px;
-    color: blue;
+    color: gray;
     line-height: 60%;
     display: block;
     position: relative;
@@ -645,6 +649,7 @@ label #cancel{
       font-size: 35px;
         color: white;
         position: relative;
+        text-transform: uppercase;
         top: 20px;
         font-family: 'Courier New', Courier, monospace;         
     }
@@ -685,6 +690,7 @@ label #cancel{
     #but{
         font-size: 35px;
         margin-left: -8px;
+        text-transform: uppercase;
         color: white;
         font-family:'Courier New', Courier, monospace; ;
     }
