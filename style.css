@@ -902,7 +902,7 @@ label #cancel{
         font-family: 'Courier New', Courier, monospace;
       }
       .next-btn{
-        margin-right: 16.5px;
+        margin-right: 17px;
         font-size: 20px;
       }
       .prev-btn{
@@ -935,6 +935,9 @@ label #cancel{
         width: 90%;
         margin-left:5px;
         margin-top: 20px;
+    }
+    .mission p{
+        width: 82%;
     }
     .motto{
         width: 80%;
@@ -969,10 +972,12 @@ label #cancel{
       }
       footer p{
         color: white;
+        line-height: 25px;
       }
       .welc h1{
         color: white;
       }
+    
     
 }
 
