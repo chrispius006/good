@@ -155,7 +155,7 @@ nav .active{
     padding-top: 10px;
     padding-bottom: 3px;
     font-size: 18px; 
-    border-left: solid darkslateblue; 
+    border-left: solid black; 
     border-left-width: 15px;
     margin-bottom: 30px;
     background: white;
@@ -981,19 +981,20 @@ label #cancel{
         width: 90%;
         margin-left:5px;
         margin-top: 10px;
-        
+        border: solid 10px rgb(248, 179, 4);
     }
     .vision{
         width: 90%;
         margin-left:5px;
         margin-top: 20px;
         padding-top: 0;
-        
+        border: solid 10px darkslateblue;
     }
     .mission{
         width: 90%;
         margin-left:5px;
         margin-top: 20px;
+        border: solid 10px rgb(248, 179, 4);
     }
     .mission p{
         width: 80%;
@@ -1002,6 +1003,7 @@ label #cancel{
         width: 80%;
         margin-left:15px;
         margin-top: 20px;
+        border: solid 10px rgb(248, 179, 4)
     }
     .motto h2{
         font-size: 25px;
