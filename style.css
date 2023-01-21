@@ -18,6 +18,15 @@ body {
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
 }
+#but2,#but3,#but4{
+    color: black;
+        border: none;
+        font-size: 18px;
+        background: none;
+        cursor: pointer;
+        text-transform: capitalize;
+        font-family: 'Raleway', sans-serif;
+}
 #but:hover, #but:focus{
     color: red;
 }
@@ -141,10 +150,10 @@ nav .active{
 .sec3{
     margin-left: 30px;
     padding-left: 0px;
-    width: 95.9%;
+    width: 90%;
     padding-top: 10px;
     padding-bottom: 3px;
-    font-size: 20px; 
+    font-size: 18px; 
     border-left: solid darkslateblue; 
     border-left-width: 15px;
     margin-bottom: 30px;
@@ -152,27 +161,36 @@ nav .active{
     font-family: 'Raleway', sans-serif;
     color: black;
     padding-left: 30px;
-   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     
 }
+
 .sec3  li{
     list-style: none;
     position: relative;
-    transition: transform 0.5s;
     display: flex;
     margin-top: 3px;
+    padding-left: 5px;
 }
-.sec3 li a{
+.sec3 .col1 li {
     text-decoration: none;
     color: #000;
 }
 .sec3  li ul{
+    padding: 5px;
+    padding-left: 3px;
     position: absolute;
-    display: none;
+    background: #4285F4;
+    border-radius: 20px;
+    margin-left: 200px;
+    margin-bottom: 50px;
 }
-.sec3  li a:hover>ul{
-    display: block;
+.sec3  li ul li{
+    color: white;
 }
+
 .sec3 li span{
     background: #4285F4;
     color: white;
@@ -183,7 +201,10 @@ nav .active{
     border-radius: 50%;
     padding: 5px;
     padding-bottom: 7px;
-    margin-top: 3px;
+    
+}
+#list2 li,#list3 li,#list4 li{
+    color: white;
 }
 .sec4{
     margin-left: 30px;
@@ -833,6 +854,7 @@ label #cancel{
         margin-bottom: 20px;
         padding-left: 10px;
         font-size: 16px;
+        display: block;
       }
       .sec4{
         margin-bottom: 20px;
@@ -1012,7 +1034,14 @@ label #cancel{
       nav ul ul li{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       }
-    
+      #but2,#but3,#but4{
+        color: black;
+        border: none;
+        font-size: 16px;
+        background: none;
+        text-transform: capitalize;
+        font-family: 'Raleway', sans-serif;
+    }
     
 }
 

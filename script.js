@@ -1,5 +1,11 @@
 const button= document.getElementById("but");
+const button2= document.getElementById("but2");
+const button3= document.getElementById("but3");
+const button4= document.getElementById("but4");
 const list= document.getElementById("list");
+const list2= document.getElementById("list2");
+const list3= document.getElementById("list3")
+const list4= document.getElementById("list4")
 const slider = document.querySelector(".slide");
 const nextBtn = document.querySelector(".next-btn");
 const prevBtn = document.querySelector(".prev-btn");
@@ -16,6 +22,36 @@ button.addEventListener("click",(Event)=>
     }
     else{
         list.style.display= "none";
+    }
+})
+list2.style.display="none";
+button2.addEventListener("click",(Event)=>
+{
+    if(list2.style.display== "none"){
+        list2.style.display= "block"; 
+    }
+    else{
+        list2.style.display= "none";
+    }
+})
+list3.style.display="none";
+button3.addEventListener("click",(Event)=>
+{
+    if(list3.style.display== "none"){
+        list3.style.display= "block"; 
+    }
+    else{
+        list3.style.display= "none";
+    }
+})
+list4.style.display="none";
+button4.addEventListener("click",(Event)=>
+{
+    if(list4.style.display== "none"){
+        list4.style.display= "block"; 
+    }
+    else{
+        list4.style.display= "none";
     }
 })
         nextBtn.addEventListener("click", () => {
