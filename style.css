@@ -1,7 +1,7 @@
 
 body {
-    background-color:#ebe7e7;
-    color: black; 
+    background-color:#fdfcfc;
+    color: gray; 
     padding: 0;
     margin: 0;
     font-size: 20px;
@@ -86,12 +86,13 @@ nav ul li:hover > ul{
 }
 nav ul ul li{
     width: auto;
-    background: gray;
+    background: darkslateblue;
     display:inline-block;
     border-style: none ;
     border-radius: 10px;
     margin: 2px;
     font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
     padding: 3px;
     color: white;
 }
@@ -102,10 +103,11 @@ nav .active{
 .sec1, .sec2 {
     margin-left: 30px;
     padding-left: 10px;
-    font-size: 20px; 
+    font-size: 16px; 
     border-left: solid red; 
     border-left-width: 15px;
-    line-height: 25px; ;    
+    line-height: 25px; ;  
+    font-family: 'Raleway', sans-serif;
    
 }
 .sec0 h2{
@@ -142,7 +144,7 @@ nav .active{
     border-left: solid red; 
     border-left-width: 15px;
     margin-bottom: 30px;
-    background: linear-gradient(to right, rgb(206, 215, 219), rgb(95, 118, 138));
+    background: white;
    
 }
 .sec3 ol li ul{
@@ -727,7 +729,7 @@ label #cancel{
           line-height: 25px;
           padding-top: 10px;
           padding-bottom: 10px;
-          font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+          font-family: 'Raleway', sans-serif;
       }
     .sec1, .sec2, .sec3, .sec4{
         margin-left: 15px;
