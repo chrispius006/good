@@ -126,6 +126,7 @@ nav .active{
     font-size: 45px;
     margin-left: 30px;
     width: 97%;
+   
 }
 
 .tit h2{
@@ -725,7 +726,7 @@ label #cancel{
         width: 85%;
     }
     p,ol,ul,ol li{
-          font-size: 17px;
+          font-size: 16px;
           line-height: 25px;
           padding-top: 10px;
           color: #000;
@@ -734,8 +735,6 @@ label #cancel{
       }
     .sec1, .sec2, .sec3, .sec4{
         margin-left: 15px;
-        
-    
       }
     
     .sec3, .sec4{
@@ -934,6 +933,9 @@ label #cancel{
     .navigation-visibility .slide-icon{
         width: 10px;
         height: 5px;
+      }
+      footer p{
+        color: white;
       }
     
 }
