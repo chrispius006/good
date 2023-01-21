@@ -706,6 +706,7 @@ label #cancel{
         display:inline-flexbox;
         color: black;
         font-size: 13px;
+        font-weight: 300;
         border: none;
         border-radius: 10px;
         padding: 1px;
@@ -805,6 +806,7 @@ label #cancel{
       }
       .sec4{
         margin-bottom: 20px;
+        font-weight: 800;
       }
                 
     section .contact{
@@ -976,6 +978,9 @@ label #cancel{
       }
       .welc h1{
         color: white;
+      }
+      nav ul ul li{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       }
     
     
