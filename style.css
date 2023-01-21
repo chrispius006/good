@@ -989,15 +989,18 @@ label #cancel{
         padding-top: 0;
         border: solid 10px darkslateblue;
     }
+    .vision h2, .vision p{
+        margin-left: -15px;
+    }
     .mission{
         width: 95%;
         margin-left:5px;
         margin-top: 20px;
         border: solid 10px rgb(248, 179, 4);
     }
-    .mission p{
-        width: 80%;
-        margin-top: -15px;
+    .mission p,.mission h2{
+        margin-left: -15px;
+        width: 77%;
     }
     .motto{
         width: 85%;
@@ -1010,6 +1013,10 @@ label #cancel{
     }
     .motto p{
         padding-left: 40px;
+    }
+    .motto h2, .motto p{
+        margin-left: -15px;
+       
     }
     .mission h2{
         color: white;
