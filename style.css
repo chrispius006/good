@@ -812,6 +812,7 @@ label #cancel{
       }
     .sec1, .sec2, .sec3, .sec4{
         margin-left: 15px;
+        border-left-width: 10px;
       }
       .sec2 p{
         width: 97%;
