@@ -10,11 +10,12 @@ body {
       
 }
 #but{
-    color: gray;
+    color: darkslateblue;
     border: none;
     font-size: 25px;
     background: none;
     font-family: serif;
+    font-weight: 500;
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
 }
@@ -29,7 +30,7 @@ body {
     padding-left: 0;
 }
 #but:hover, #but:focus{
-    color: red;
+    color: gold;
 }
 #list{
     z-index: 2;
@@ -70,14 +71,14 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     padding: 10px;
-    color: gray;
+    color: darkslateblue;
     line-height: 60%;
     display: block;
     position: relative;
-   
+    font-weight: 500;
 }
 nav ul li a:hover{
-    color: red;
+    color: gold;
     padding: 10px;
     
 }
@@ -217,11 +218,8 @@ nav .active{
     padding-bottom: 3px;
     font-size: 20px; 
     margin-right: 10px;
-    border-left: solid darkslateblue; 
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-left-width: 15px;
-    background: linear-gradient(to right, rgb(206, 215, 219), rgb(95, 118, 138))
+    border-left: solid 10px darkslateblue; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .sec4 ul li {
     padding: 0; 
