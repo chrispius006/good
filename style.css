@@ -1090,9 +1090,11 @@ label #cancel{
     .about{
         display: block;
         margin-left: 15px;
+       
     }
     .yr, .bed, .stuf,.patie{
         margin-top: 20px;
+        width: 97%;
     }
     .yr span, .bed span, .stuf span,.patie span{
         font-size: 16px;
