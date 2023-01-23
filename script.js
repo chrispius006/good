@@ -24,36 +24,7 @@ button.addEventListener("click",(Event)=>
         list.style.display= "none";
     }
 })
-list2.style.display="none";
-button2.addEventListener("click",(Event)=>
-{
-    if(list2.style.display== "none"){
-        list2.style.display= "block"; 
-    }
-    else{
-        list2.style.display= "none";
-    }
-})
-list3.style.display="none";
-button3.addEventListener("click",(Event)=>
-{
-    if(list3.style.display== "none"){
-        list3.style.display= "block"; 
-    }
-    else{
-        list3.style.display= "none";
-    }
-})
-list4.style.display="none";
-button4.addEventListener("click",(Event)=>
-{
-    if(list4.style.display== "none"){
-        list4.style.display= "block"; 
-    }
-    else{
-        list4.style.display= "none";
-    }
-})
+
         nextBtn.addEventListener("click", () => {
           slides.forEach((slide) => {
             slide.classList.remove("active");
