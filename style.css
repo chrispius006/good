@@ -974,8 +974,6 @@ label #cancel{
     footer{
         bottom: unset;
         padding-top: 40px;
-        /* background: #233b61; */
-        
     }
     .col{
         flex-basis: 100%;
@@ -1049,7 +1047,7 @@ label #cancel{
         width: 70%;
         height: 60%;
         margin-top: 20px;
-        margin-left: 26px;
+        margin-left: 27.4px;
         padding: 2px;
         padding-left: 20px;
       }
