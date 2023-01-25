@@ -19,16 +19,6 @@ body {
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
 }
-#but2,#but3,#but4{
-    color: black;
-    border: none;
-    font-size: 18px;
-    background: none;
-    cursor: pointer;
-    text-transform: capitalize;
-    font-family: 'Raleway', sans-serif;
-    padding-left: 0;
-}
 #but:hover, #but:focus{
     color: gold;
 }
@@ -932,6 +922,9 @@ label #cancel{
         padding-left: 0;
         margin-top: 0;
       }
+      .sec0{
+        width: 90%;
+      }
       .sec0 h2{
         font-size: 30px;
         margin-top: 0;
@@ -998,6 +991,9 @@ label #cancel{
     }
     .col:nth-child(2), .col:nth-child(3){
         flex-basis: 100%;
+    }
+    .bak{
+        width: 90%;
     }
     .bak h1{
         font-size: 35px;
