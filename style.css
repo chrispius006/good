@@ -19,8 +19,9 @@ body {
     cursor: pointer;
     font-family: 'Raleway', sans-serif;
 }
-#but:hover, #but:focus{
+#but:hover{
     background: none;
+    color: darksalmon;
     
 }
 #list{
@@ -68,22 +69,8 @@ nav ul li a{
     position: relative;
     font-weight: 500;
 }
-nav ul li a:before{
-    position: absolute;
-    content: '';
-    left: 0;
-    bottom: 0;
-    height: 2px;
-    width:100%;
-    background: darkslateblue;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform .8s linear ;
-}
-nav ul li a:hover:before{
-    transform-origin: left;
-    transform: scaleX(1);
-    
+nav ul li:hover > a{
+   color: darksalmon;
 }
 
 nav ul ul{
@@ -798,8 +785,8 @@ label #cancel{
   #check{
     display: none;
   }
-  
-@media (max-width: 800px){
+   
+@media (max-width: 1000px){
     label #btn{
       display: block;
       
@@ -1145,7 +1132,8 @@ label #cancel{
         border-radius: 7px;
     }
     .bak{
-        padding-left:16px ;
+        display: block;
+        text-align: center;
     }
     .navigation-visibility .slide-icon{
         width: 10px;
@@ -1214,5 +1202,21 @@ label #cancel{
        
     }
 }
-
-
+/* @media (min-width:601px)and(max-width: 1024px){
+    body{
+        padding-left: 20px;
+    }
+    body header nav{
+        padding-left: -15px;
+    }
+    footer{
+        padding-left: 0;
+    }
+    .welc{
+        background:linear-gradient(to right, #00093C, #2d0b00);
+        width: 85%;
+        text-align: center;
+        color:white;
+        border:darkslateblue 3px solid;
+     }
+  }   */
