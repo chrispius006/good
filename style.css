@@ -303,12 +303,12 @@ nav .active{
     position: absolute;
     width: 100%;
     height: 100%;
-    clip-path: circle(0% at 0 50%);
+    clip-path: circle(0% at 0 150%);
   }
   
   .slider .slide.active{
     clip-path: circle(150% at 0 50%);
-    transition: 1s;
+    transition: 2.3s;
   }
   
   .slider .slide img{
@@ -376,13 +376,11 @@ nav .active{
   }
   
   .navigation-visibility{
-    /* z-index: 999; */
     display: flex;
     justify-content: center;
   }
   
   .navigation-visibility .slide-icon{
-    /* z-index: 999; */
     background: rgba(255, 255, 255, 0.5);
     width: 20px;
     height: 10px;
@@ -785,6 +783,13 @@ label #cancel{
   #check{
     display: none;
   }
+  body .container{
+    padding-right:40px;
+    padding-left: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    
+  }
    
 @media (max-width: 1000px){
     label #btn{
@@ -864,7 +869,7 @@ label #cancel{
         color: white;
         font-family:'Courier New', Courier, monospace; ;
     }
-    #but:hover, #but:focus{
+    #but:hover{
         color: yellow;
     }
     
@@ -1201,22 +1206,11 @@ label #cancel{
         font-size: 30px;
        
     }
+    body .container{
+        padding-right:15px;
+        padding-left: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        
+      }
 }
-/* @media (min-width:601px)and(max-width: 1024px){
-    body{
-        padding-left: 20px;
-    }
-    body header nav{
-        padding-left: -15px;
-    }
-    footer{
-        padding-left: 0;
-    }
-    .welc{
-        background:linear-gradient(to right, #00093C, #2d0b00);
-        width: 85%;
-        text-align: center;
-        color:white;
-        border:darkslateblue 3px solid;
-     }
-  }   */
