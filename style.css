@@ -488,10 +488,26 @@ section{
 }
 .ser h1{
     text-align: center;
+    position: relative;
+    left: -100%;
+    animation: slide-in 1.5s forwards;
+}
+@keyframes slide-in {
+    to{
+        left: 0;
+    }
 }
 .ser p{
     border-left: darkslateblue solid 15px;
     padding-left: 10px;
+    position: relative;
+    right: -100%;
+    animation: slide-in1 1.5s forwards;
+}
+@keyframes slide-in1 {
+    to{
+        right: 0;
+    }
 }
 .service{
     width: 97%;
@@ -574,7 +590,7 @@ h1 span{
     padding-top: 20px;
     line-height: 50px;
     color: rgb(245, 182, 8);
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     padding-bottom: 20px;
 }
