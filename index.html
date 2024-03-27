@@ -1,277 +1,413 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="logo 5.ico" type="image/x-icon">
-    <title>Kijaguzo HC III</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="css/all.css">
+    <title>Document</title>
 </head>
+
 <body>
+
     <header>
-        <nav>
-            <input type="checkbox" id="check">
-            <label for="check">
-                <i class="fas fa-bars" id="btn"></i>
-                <i class="fas fa-times" id="cancel"></i>
-            </label>
-            <div class="ki"><img src="logo 5.png"></div>
-            <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a href="#"><button id="but">Services</button><i class="fa-sharp fa-solid fa-caret-down"></i></a>
-                    <ul id="list">
-                        <li>General medicine</li>
-                        <li>Outpatient</li>
-                        <li>Inpatient</li>
-                        <li>Antenatal</li>
-                        <li>Maternity services</li>
-                        <li>Natural family planning</li>
-                        <li>HIV testing and counselling</li>
-                        <li>Community counselling</li>
-                        <li>Laboratory services</li>
-                        <li>Immunization</li>
-                        <li>Community Health Insurance</li>
-                        <li>Community outreaches</li>
-                        <li>Ultrasound</li>
-                        <li>Minor surgical procedures</li>
-                        <li>Referrals</li>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body fixed-top">
+            <div class="container-md">
+                <img src="assets/img/logo 5.ico">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 fw-semibold">
+                        <li class="nav-item "><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">General medicine</a></li>
+                                <li><a class="dropdown-item" href="#">Outpatient</a></li>
+                                <li><a class="dropdown-item" href="#">Inpatient</a></li>
+                                <li><a class="dropdown-item" href="#">Antenatal</a></li>
+                                <li><a class="dropdown-item" href="#">Maternity services</a></li>
+                                <li><a class="dropdown-item" href="#">Family planning</a></li>
+                                <li><a class="dropdown-item" href="#">HIV testing and counselling</a></li>
+                                <li><a class="dropdown-item" href="#">Community counselling</a></li>
+                                <li><a class="dropdown-item" href="#">Laboratory services</a></li>
+                                <li><a class="dropdown-item" href="#">Immunization</a></li>
+                                <li><a class="dropdown-item" href="#">Community Health Insurance</a></li>
+                                <li><a class="dropdown-item" href="#">Minor surgical procedures</a></li>
+                                <li><a class="dropdown-item" href="#">Referrals</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="location.html">Location</a></li>
                     </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="location.html">Location</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="container">
-    <div class="sec1">
-        <div class="welc">
-            <h1><b>Welcome to Kijaguzo HC III</b></h1>
-        </div>
-    </div>
-    <div class="slider">
-        <div class="slide active">
-          <img src="abakozi.JPG" alt="">
-          <div class="info">
-            <h2>Board</h2>
-            <p>Staff and beneficiaries of Community health insurance schemes</p>
-          </div>
-        </div>
-        <div class="slide">
-          <img src="consulting.jpg" alt="">
-          <div class="info">
-            <h2>Consultation</h2>
-            <p>This picture shows a nurse recording a patient's information</p>
-          </div>
-        </div>
-        <div class="slide">
-          <img src="ambulance.JPG" alt="">
-          <div class="info">
-            <h2>Ambulance</h2>
-            <p>We have access to the Ambulance in case of emergency referals</p>
-          </div>
-        </div>
-        <div class="slide">
-          <img src="frontview.JPG" alt="">
-          <div class="info">
-            <h2>The Facility</h2>
-            <p>This picture shows the Front view of Kijjaguzo HC</p>
-          </div>
-        </div>
-        <div class="slide">
-          <img src="endview.JPG" alt="">
-          <div class="info">
-            <h2>End View</h2>
-            <p>This picture shows the end elevation of the Facility</p>
-          </div>
-        </div>
-        <div class="slide">
-            <img src="IMG_5471.JPG" alt="">
-            <div class="info">
-              <h2>Medical Team</h2>
-              <p>This picture shows some of our medical Team</p>
-            </div>
-          </div>
-        <div class="navigation">
-          <i class="fas fa-chevron-left prev-btn"></i>
-          <i class="fas fa-chevron-right next-btn"></i>
-        </div>
-        <div class="navigation-visibility">
-          <div class="slide-icon active"></div>
-          <div class="slide-icon"></div>
-          <div class="slide-icon"></div>
-          <div class="slide-icon"></div>
-          <div class="slide-icon"></div>
-          <div class="slide-icon"></div>
-        </div>
-      </div>
-    
-        <div class="bak"><h1>BACKGROUND</h1></div>
-
-        <div class="sec2">
-        <p>St. Francis kijaguzo health center III was built in 2012 by Kasana Luweero diocese with support from donors
-            from German(ZFK e.v., 1LD e.v., BMZ) and was opened in 2012 by bishop of kasana Luweero diocese Rt. Rev.
-            bishop Paul Semogerere.</p>
-        </div>
-        <div class="stuff"><img src="stuff.html.jpg"></div>
-        <div class="stufftxt"><p>A team of our staff receiving new knowledge</p></div>
-        <div class="sec2">
-        <p>The idea for opening the health facility was originally initiated by the then parish priest Rev. Fr. Charles
-            Ssenkungu who started the construction with the support from the parishioners however due to limited
-            finances, he was unable to accomplish it. it was later taken by Caritas kasana Luweero who got donors to
-            accomplish the project.</p>
-        </div>
-
-    <div class="med"><img src="General%20medicine.jpg"></div>
-    <div class="medtxt"><p>Dr. Tadeo Musiime clerking a patient</p></div>
-    <div class="about">
-        <div id="card"><div class="yr"> <span>Years of Existance</span><br><div id="count">0</div></div></div>
-        <div id="card1"><div class="bed"><span>Number of Beds</span><br><div id="count1">0</div></div></div>
-        <div id="card2"><div class="stuf"><span>Stuff</span><br><div id="count2">0</div></div></div>
-        <div id="card3"><div class="patie"><span>Average Annual No. of Patients</span><br><div id="count3">0</div></div></div>
-
-    </div>
-    <div class="nurse"><img src="nurse.jpeg"></div>
-    <div class="nursetxt"><p>Nurses offering nursing care to an ill child</p></div>
-    <div class="ser">
-    <h1 class='slide'>OUR <span>SERVICES</span></h1>
-    <p class="slide2">
-        The health center extends a wide range of health services majorly to the people
-        living in Nakaseke District in central Uganda. On different occasions, the Facility
-         receives patients from areas beyond this district.
-    </p>
-    </div>
-    <div class="service">
-    <div class="m">
-    <div class="mat"><img src="maternity.JPG"></div>
-    <div class="mattxt"><h2>MATERNITY SERVICES</h2><hr><br><p>Kijaguzo HC's maternity ward has 
-        5 beds and registers the biggest number of admissions in the Facility
-    </p></div>
-    <button>READ MORE</button>
-    </div>
-
-    <div class="m">
-    <div class="lab"><img src="labo.JPG"></div>
-    <div class="labtxt"><h2>LABORATORY SERVICES</h2><hr><br><p>Laboratory is the major diagnostic department</p></div>
-    <button>READ MORE</button>
-    </div>    
-    </div>
-    <div class="service2">
-    <div class="m">
-    <div class="im"><img src="immunise.jpg"></div>
-    <div class="imtxt"><h2>IMMUNISATION SERVICES</h2><hr><br><p>Free Immunization to children especial 0-1yrs and under-fives. There has also been vaccination of school girls for cervical cancer, 
-        Tetanus for all child bearing ages </p></div>
-    <button>READ MORE</button>
-    </div>
-
-    <div class="m">
-    <div class="gen"><img src="general.JPG"></div>
-    <div class="gentxt"><h2>GENERAL MEDICINE</h2><hr><br><p>We treat common diseases which affect the society such as Maralia, Respiratory tract infections,Urinary tract infections,Sexually transmitted diseases, 
-        Typhoid,
-        Diarrheas,
-        Gastroenteritis,
-        Peptic ulcer disease, 
-        Non communicable diseases including Hypertension, Diabetes mellitus
-        </p></div>
-    <button>READ MORE</button>
-    </div>
-    </div>
-    <div class="doctor"><img src="doctor.jpeg"></div>
-    <div class="docttxt"><p>Dr. Mukuzi Muhereeza examining one of the clients during a ward round</p></div>
-        <B>
-                <div class="sec0"><h2>OUR CORE VALUES</h2></div>
-            </B>
-    <div class="sec4">
-        <ul>
-            <li>Commitment to catholic values</li>
-            <li>Integrity and openness</li>
-            <li>Professionalism</li>
-            <li>Mutual staff respect</li>
-            <li>Equiatable treatment of all clients</li>
-            <li>Hard work and provision of quality services</li>
-        </ul>
-    </div>
-    <div class="doctor"><img src="doctor2.jpeg"></div>
-    <div class="docttxt"><p>Our consultant Dr. Mukuzi Muhereza clerking a patient</p></div>
-        <div class="layout">
-            <div class="goal"><B>
-                    <h2>GOAL</h2>
-                </B>
-            <P>
-                To reach out to our community, and avail quality or better health services
-            </P></div>
-
-            <div class="vision">
-                    <h2>VISION</h2>
-            <p>A model healthcare facility with respect to christian values</p>
-            </div>
-            <div class="mission">
-                    <h2>MISSION</h2>
-            <p>
-                To provide sustainable, affordable, equitable and quality healthcare without segregating the
-                economically disadvantaged.
-            </p>
-            </div>
-        </div>
-            <div class="motto">
-                    <h2>MOTTO</h2>
-                
-            <p>
-                We care, Jesus Heals (Mathew 8:14-17)
-            </p>
-        </div>
-        </div>
-    <footer>
-        <div class="row">
-            <div class="col">
-                <img src="logo 5.png" class="loggo">
-                <p>
-                    St. Francis Kijaguzo Health Center III Was Built In 2012 By Kasana Luweero Diocese With Support From
-                    Donors From German(ZFK e.V., 1LD e.V., BMZ) And Was Opened In 2012 By Bishop Of Kasana Luweero
-                    Diocese Rt. Rev. Bishop Paul Semogerere.
-                    At kijaguzo Hc, We care and Jesus Heals.
-                </p>
-            </div>
-            <div class="col">
-                <h3>Location <div class="underline"><span></span></div>
-                </h3>
-                <p>Wabikokooma LC1</p>
-                <p>Posta B Parish</p>
-                <p>Semuto town council, Nakaseke District</p>
-            </div>
-            <div class="col">
-                <h3>Links <div class="underline"><span></span></div>
-                </h3>
-                <ul>
-                    <li><i class="fa-sharp fa-solid fa-house"></i><a href="index.html">Home</a></li>
-                    <li><i class="fa-sharp fa-solid fa-phone"></i><a href="contact.html">Contact</a></li>
-                    <li><i class="fa-sharp fa-solid fa-location-dot"></i><a href="location.html">Location</a></li>
-                </ul>
-            </div>
-            <div class="col">
-                <h3>Newsletter <div class="underline"><span></span></div>
-                </h3>
-                <form>
-                    <i class="far fa-envelope"></i>
-                    <input type="email" placeholder="Enter your email id" required>
-                    <button type="submit" class="send">Send</button>
-                </form>
-                <div class="social-icons">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <a href="https://wa.me/+256772853042"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
+        </nav>
+
+    </header>
+
+    <section class="bg text-light p-5 text-center text-sm-start">
+
+        <div class="container" style="padding-top: 120px;">
+
+            <div class="d-sm-flex">
+                <div class="welcome" style="width: 50%;">
+                    <h1>Welcome to <br> <span class="text-warning"
+                            style="font-size: 4rem; font-weight:bold; letter-spacing: 2px">ST. FRANCIS <span
+                                class="text-light">KIJAGUZO HEALTH</span> CENTER III</span></h1>
+                    <p class="lead my-4 fw-semibold">
+                        St. Francis kijaguzo health center III was built in 2012 by Kasana Luweero diocese with support
+                        from
+                        donors
+                        from German(ZFK e.v., 1LD e.v., BMZ) and was opened in 2012 by bishop of kasana Luweero diocese
+                        Rt. Rev.
+                        bishop Paul Semogerere.
+                    </p>
+                    <button class="btn btn-warning btn-lg fw-semibold">Book an appointment</button>
+                </div>
+
+
+            </div>
+
         </div>
-        <hr>
-        <p class="copyright">© Copyright 2022 - Kijaguzo Health Center III</p>
+
+    </section>
+
+    <section>
+
+        <div class="container" style="padding-top: 80px ;">
+
+            <h1 class="text-center fw-bold" style="color: darkslateblue;">We Care <span class="text-warning"
+                    style="font-weight:bold;">Jesus Heals</span></h1>
+
+            <div class="layout">
+                <div class="goal">
+                    <B>
+                        <h2>GOAL</h2>
+                    </B>
+                    <P>
+                        To reach out to our community, and avail quality or better health services
+                    </P>
+                </div>
+
+                <div class="vision">
+                    <h2>VISION</h2>
+                    <p>A model healthcare facility with respect to christian values</p>
+                </div>
+                <div class="mission">
+                    <h2>MISSION</h2>
+                    <p>
+                        To provide sustainable, affordable, equitable and quality healthcare without segregating the
+                        economically disadvantaged.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="text-light text-center text-sm-start about" style="background-color: darkslateblue;">
+
+        <div class="container" style="padding: 80px; margin-top:100px;">
+
+            <div class="d-sm-flex">
+
+                <img class="img-fluid" src="assets/img/doctor.png" alt="">
+
+                <div>
+                    <h1><span class="text-warning" style="font-size: 4rem; font-weight:bold; letter-spacing: 2px">About
+                            Us</span></h1>
+                    <p class="lead my-4 fw-semibold">
+                        St. Francis kijaguzo health center III was built in 2012 by Kasana Luweero diocese with support
+                        from
+                        donors
+                        from German(ZFK e.v., 1LD e.v., BMZ) and was opened in 2012 by bishop of kasana Luweero diocese
+                        Rt. Rev.
+                        bishop Paul Semogerere. <br>
+
+                        The idea for opening the health facility was originally initiated by the then parish priest Rev.
+                        Fr.
+                        Charles
+                        Ssenkungu who started the construction with the support from the parishioners however due to
+                        limited
+                        finances, he was unable to accomplish it. it was later taken by Caritas kasana Luweero who got
+                        donors to
+                        accomplish the project.
+                    </p>
+                    <button class="btn btn-warning btn-lg fw-semibold">READ MORE</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="text-light text-center text-sm-start about">
+
+        <div class="container">
+            <div class="d-flex px-5" style="position: relative; top: -40px; margin-right: 10px;">
+
+                <div class="card" style="width: 18rem;
+                height: 12rem;
+                font-weight: bold;
+                text-align: center;
+                margin-right: 20px;">
+                    <div class="card-body">
+                        <h2 class="card-title">Years of Experience</h2>
+                        <p class="card-text" style="color:rgb(248, 179, 4);
+                        font-size: 50px;">10+</p>
+
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;
+                height: 12rem;
+                font-weight: bold;
+                text-align: center;
+                margin-right: 20px;">
+                    <div class="card-body">
+                        <h2 class="card-title">Number of beds</h2>
+                        <p class="card-text" style="color:rgb(248, 179, 4);
+                        font-size: 50px;">20+</p>
+
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;
+                height: 12rem;
+                font-weight: bold;
+                text-align: center;
+                margin-right: 20px;">
+                    <div class="card-body">
+                        <h2 class="card-title">Stuff</h2>
+                        <p class="card-text" style="color:rgb(248, 179, 4);
+                        font-size: 50px;">10+</p>
+
+                    </div>
+                </div>
+
+                <div class="card" style="width: 18rem;
+                height: 12rem;
+                font-weight: bold;
+                text-align: center;
+                margin-right: 20px;">
+                    <div class="card-body">
+                        <h2 class="card-title">Average Annual No. of Patients</h2>
+                        <p class="card-text" style="color:rgb(248, 179, 4);
+                        font-size: 50px;">10,000+</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <div class="container">
+
+            <div class="d-sm-flex">
+                <div class="value" style="padding:50px;">
+                    <h1><span class="text" style="font-size: 4rem; font-weight:bold; color:darkslateblue;">OUR
+                            CORE</span> <span class="text-warning"
+                            style="font-size: 4rem; font-weight:bold;">VALUES</span></h1>
+                    <ul class="lead my-4 fw-semibold" style="padding:10px;">
+                        <li>Commitment to catholic values</li>
+                        <li>Integrity and openness</li>
+                        <li>Professionalism</li>
+                        <li>Mutual staff respect</li>
+                        <li>Equiatable treatment of all clients</li>
+                        <li>Hard work and provision of quality services</li>
+                    </ul>
+                    <button class="btn btn-warning btn-lg fw-semibold">Discover more</button>
+                </div>
+
+                <div>
+
+                    <div class="img"
+                        style="background-color: goldenrod; background-clip:border-box; border-radius: 40%; margin-top: 40px;">
+
+                        <img class="img-fluid p-5" src="assets/img/doctor.png" alt=""
+                            style="height: 450px; width: auto;">
+
+                    </div>
+                    <div class="comment p-2 fs-5" style="background-color: darkslateblue; border-radius: 10px; width: 
+                50%; text-align: center; color: white; margin: auto; position: relative; top: -50px;">
+                        <p class="pad" style="padding: 10px; font-size: 20px; font-weight: bolder;">Health is Wealth</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="text-center text-sm-start about">
+
+        <div class="container" style="padding: 80px; margin-top:100px;">
+
+            <div class="d-sm-flex mb-5">
+
+                <img class="img-fluid" src="assets/img/maternity.JPG" style="height: 500px; width: 600px;" alt="">
+
+                <div class="m-5">
+                    <h1><span class="text" style="font-size: 4rem; font-weight:bold; color: black;">OUR SERVICES</span>
+                    </h1>
+                    <h2><span class="text" style="font-size: 2rem; font-weight:bold; color: darkslateblue;">Maternity
+                            Services</span></h2>
+                    <p class="lead my-4 fw-semibold">
+                        Kijaguzo HC's maternity ward has
+                        5 beds and registers the biggest number of admissions in the Facility
+                    </p>
+                    <button class="btn btn-warning btn-lg fw-semibold">READ MORE</button>
+                </div>
+
+            </div>
+
+            <div class="d-sm-flex mb-5">
+
+                <img class="img-fluid" src="assets/img/labo.JPG" style="height: 500px; width: 600px;" alt="">
+
+                <div class="m-5">
+                    <h1><span class="text" style="font-size: 2rem; font-weight:bold; color: darkslateblue;">Laboratory
+                            Services</span></h1>
+                    <p class="lead my-4 fw-semibold">
+                        Laboratory is the major diagnostic department
+                    </p>
+                    <button class="btn btn-warning btn-lg fw-semibold">READ MORE</button>
+                </div>
+
+            </div>
+
+            <div class="d-sm-flex mb-5">
+
+                <img class="img-fluid" src="assets/img/immun2.JPG" style="height: 500px; width: 600px;" alt="">
+
+                <div class="m-5">
+                    <h1><span class="text" style="font-size: 2rem; font-weight:bold; color: darkslateblue;">Immunization Services</span></h1>
+                    <p class="lead my-4 fw-semibold">
+                        Free Immunization to children especial 0-1yrs and under-fives. There has
+                            also been vaccination of
+                            school girls for cervical cancer,
+                            Tetanus for all child bearing ages
+                    </p>
+                    <button class="btn btn-warning btn-lg fw-semibold">READ MORE</button>
+                </div>
+
+            </div>
+
+            <div class="d-sm-flex mb-5">
+
+                <img class="img-fluid" src="assets/img/General medicine.jpg" style="height: 500px; width: 600px;" alt="">
+
+                <div class="m-5">
+                    <h1><span class="text" style="font-size: 2rem; font-weight:bold; color: darkslateblue;">General medicine</span></h1>
+                    <p class="lead my-4 fw-semibold">
+                        We treat common diseases which affect the society such as Maralia, Respiratory tract
+                            infections,Urinary tract infections,Sexually transmitted diseases,
+                            Typhoid,
+                            Diarrheas,
+                            Gastroenteritis,
+                            Peptic ulcer disease,
+                            Non communicable diseases including Hypertension, Diabetes mellitus
+                    </p>
+                    <button class="btn btn-warning btn-lg fw-semibold">READ MORE</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        </div>
+
+    </section>
+
+    <section class="position" style="position: relative;">
+        <div class="container mb-2" style="background-color: black;">
+            <div class="d-sm-flex text-light p-5 pb-3 fw-bold" style="font-size: 3rem;">
+                <p>
+                    EMPOWERING HEALTH<br>
+                    INSPIRING HOPE
+                    
+                </p>
+                <div class="image" style="position: absolute; bottom: 0px; right:150px;"><img src="assets/img/doctor.png" width="500px" alt=""></div>
+            </div>
+            <button class="btn btn-warning btn-lg fw-semibold m-5 mt-0">BOOK AN APPOINTMENT</button>
+        </div>
+        
+    </section>
+
+    <footer class="container-fluid text-light" style="background-color: #0f172a;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="assets/img/logo 5.ico" class="loggo pb-3">
+                    <p>
+                        St. Francis Kijaguzo Health Center III Was Built In 2012 By Kasana Luweero Diocese With Support
+                        From
+                        Donors From German(ZFK e.V., 1LD e.V., BMZ) And Was Opened In 2012 By Bishop Of Kasana Luweero
+                        Diocese Rt. Rev. Bishop Paul Semogerere.
+                        At kijaguzo Hc, We care and Jesus Heals.
+                    </p>
+                </div>
+                <div class="col">
+                    <h3>Location <div class="underline"><span></span></div>
+                    </h3>
+                    <p>Wabikokooma LC1</p>
+                    <p>Posta B Parish</p>
+                    <p>Semuto town council, Nakaseke District</p>
+                </div>
+                <div class="col">
+                    <h3>Links <div class="underline"><span></span></div>
+                    </h3>
+                    <ul>
+                        <li><i class="fa-sharp fa-solid fa-house"></i><a href="index.html">Home</a></li>
+                        <li><i class="fa-sharp fa-solid fa-phone"></i><a href="contact.html">Contact</a></li>
+                        <li><i class="fa-sharp fa-solid fa-location-dot"></i><a href="location.html">Location</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Newsletter <div class="underline"><span></span></div>
+                    </h3>
+                    <form>
+                        <i class="far fa-envelope"></i>
+                        <input type="email" placeholder="Enter your email id" required>
+                        <button type="submit" class="send">Send</button>
+                    </form>
+                    <div class="social-icons">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <a href="https://wa.me/+256772853042"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright text-center">© Copyright 2022-2024 by St. Francis Kijaguzo Health Center III</p>
+        </div>
     </footer>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
