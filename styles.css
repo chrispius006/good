@@ -210,10 +210,6 @@ footer p{
     footer{
         bottom: unset;
         padding: 0;
-        padding-top: 30px;
-    }
-    footer .container{
-        margin:-30px;
     }
     .col{
         flex-basis: 100%;
