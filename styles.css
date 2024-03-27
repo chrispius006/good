@@ -203,3 +203,39 @@ footer p{
     color: white;
     line-height: 30px;
 }
+
+/* mobile view */
+
+@media(max-width:1000px){
+    footer{
+        bottom: unset;
+        padding-top: 40px;
+    }
+    .col{
+        flex-basis: 100%;
+       
+    }
+    .col h3{
+        margin-top: 0;
+    }
+
+    .col p{
+        padding-top:0;
+        padding-bottom: 0;
+    }
+    .col:nth-child(2), .col:nth-child(3){
+        flex-basis: 100%;
+    }
+    .bak{
+        width: 90%;
+    }
+    .bak h1{
+        font-size: 35px;
+    }
+    
+    .copyright{
+        font-size: 13px;
+        padding-bottom: 0;
+    }
+}
+
