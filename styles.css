@@ -27,18 +27,22 @@ footer img {
     width: 50%
 }
 
-.welcome .text-warning {
+.welcome .text-warning,
+.sec3 .text-warning {
     font-size: 4rem;
     font-weight: bold;
     letter-spacing: 2px
 }
-.welcome .btn-warning{
-    width:fit-content;
+
+.welcome .btn-warning,
+.sec3 .btn-warning {
+    width: fit-content;
     font-size: 20px;
     padding: 10px;
 }
-.sec2{
-    padding-top: 30px ;
+
+.sec2 {
+    padding-top: 30px;
 }
 
 .layout {
@@ -104,6 +108,26 @@ footer img {
 .mission h2 {
     font-weight: bold;
     font-size: 30px;
+}
+
+.sec3 {
+    padding: 80px;
+    margin-top: 100px;
+}
+
+.sec4 {
+    position: relative;
+    top: -40px;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.sec4 .card {
+    width: 18rem;
+    height: 12rem;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 20px;
 }
 
 footer {
@@ -272,20 +296,18 @@ footer p {
     .welcome p {
         font-size: 15px;
     }
-    .welcome button{
-        width: 300px;
-    }
-    .btn{
-        width: 30%;
-    }
-    .bg{
+
+    .bg {
         background-size: cover;
     }
 
-    .welcome .text-warning {
+    .welcome .text-warning,
+    .sec3 .text-warning {
         font-size: 2rem;
+        text-align: center;
     }
-    .sec2{
+
+    .sec2 {
         padding-top: 10px;
     }
 
@@ -293,7 +315,9 @@ footer p {
         display: block;
         padding-top: 0;
     }
-    .layout p{
+
+    .layout p,
+    .sec3 p {
         font-size: 15px;
     }
 
@@ -323,6 +347,25 @@ footer p {
     .mission h2 {
         font-weight: bold;
         font-size: 18px;
+    }
+
+    .sec3 {
+        padding: 10px;
+        margin-top: 30px;
+    }
+
+    .sec4 {
+        position: relative;
+        top: 20px;
+        /* margin-right: 0px; */
+        margin-left: 0;
+    }
+    .sec4 .card {
+        width: 100%;
+        font-weight: bold;
+        text-align: center;
+        margin-right: 0;
+        margin-top: 20px;
     }
 
     footer {
