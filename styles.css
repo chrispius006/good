@@ -213,28 +213,28 @@ footer p{
     .layout{
         display: block;
         padding-top:0;
-        font-size: 12px;
+        font-size: 15px;
     }
     .layout h2{
         font-size: 12px;
     }
     .goal{
-        border: solid 5px rgb(248, 179, 4);
+        border: solid 12px rgb(248, 179, 4);
         width: 100%;
-        padding: 20px 30px;
+        padding: 40px 50px;
     }
     .vision{
         width: 100%;
         margin-top: 20px;
         margin-left: 0;
-        padding: 20px 30px;
+        padding: 40px 50px;
     }
     .mission{
-        border: solid 5px rgb(248, 179, 4);
+        border: solid 12px rgb(248, 179, 4);
         margin-top: 20px;
         margin-left: 0;
         width: 100%;
-        padding: 20px 30px;
+        padding: 40px 50px;
     }
     .goal h2, .vision h2, .mission h2{
         font-weight: bold;
