@@ -1,75 +1,107 @@
-
-nav img, footer img{
+nav img,
+footer img {
     width: 80px;
     height: 80px;
 }
-.nav-link{
+
+.nav-link {
     color: rgb(98, 76, 239);
 }
+
 .bg {
-    
-    background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,.7),rgba(0,0,0,.4)),url(assets/img/maternity.JPG);
+
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7), rgba(0, 0, 0, .4)), url(assets/img/maternity.JPG);
 }
-.bg2{
-    background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,.7),rgba(0,0,0,.4)),url(assets/img/IMG_5471.JPG);
+
+.bg2 {
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, .7), rgba(0, 0, 0, .4)), url(assets/img/IMG_5471.JPG);
     background-size: cover;
 }
-.img-fluid{
+
+.img-fluid {
     width: 600px;
     height: 600px;
 }
-.layout{
+
+.welcome {
+    width: 50%
+}
+
+.welcome .text-warning {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 2px
+}
+.sec2{
+    padding-top: 30px ;
+}
+
+.layout {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-between;
     padding-top: 20px;
-    
+
 }
-.layout h2{
+
+.layout h2 {
     font-size: 25px;
 }
-.goal{
-    background:darkslateblue;
+
+.goal {
+    background: darkslateblue;
     border: solid 15px rgb(248, 179, 4);
-    border-top-left-radius:100px ;
-    border-bottom-left-radius:100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
     width: 30%;
     padding: 70px 50px;
 }
-.goal b h2, .goal p{
+
+.goal b h2,
+.goal p {
     color: white;
-    
+
 }
-.vision{
-    background:rgb(248, 179, 4);
+
+.vision {
+    background: rgb(248, 179, 4);
     width: 30%;
     margin-left: 30px;
     padding: 80px 50px;
 }
-.vision h2, .vision p{
-   
+
+.vision h2,
+.vision p {
+
     color: black;
-    
+
 }
-.mission{
-    background:darkslateblue;
+
+.mission {
+    background: darkslateblue;
     border: solid 15px rgb(248, 179, 4);
-    border-top-right-radius:100px ;
-    border-bottom-right-radius:100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
     margin-left: 30px;
     width: 30%;
     padding: 50px 50px;
 }
-.mission h2, .mission p{
-    
+
+.mission h2,
+.mission p {
+
     color: white;
-   
+
 }
-.goal h2, .vision h2, .mission h2{
+
+.goal h2,
+.vision h2,
+.mission h2 {
     font-weight: bold;
     font-size: 30px;
 }
-footer{
+
+footer {
     font-size: 30px;
     bottom: 0;
     padding: 100px 0 30px;
@@ -79,7 +111,8 @@ footer{
     font-size: 16px;
     line-height: 20px;
 }
-.row{
+
+.row {
     width: 90%;
     margin: auto;
     display: flex;
@@ -87,43 +120,53 @@ footer{
     align-items: flex-start;
     justify-content: space-between;
 }
-.col{
+
+.col {
     flex-basis: 25%;
     padding: 10px;
 }
-.col:nth-child(2), .col:nth-child(3){
+
+.col:nth-child(2),
+.col:nth-child(3) {
     flex-basis: 15%;
 }
-.loggo{
+
+.loggo {
     width: 80px;
     margin-bottom: 30px;
 }
-.col h3{
-    width:fit-content;
+
+.col h3 {
+    width: fit-content;
     color: rgb(248, 179, 4);
     font-size: 30px;
 }
-.col ul li{
+
+.col ul li {
     list-style: none;
     margin-bottom: 12px;
     margin-left: -40px;
 
 }
-.col ul li a{
+
+.col ul li a {
     text-decoration: none;
     color: #fff;
-    margin-left:  5px; ;
-    
-}
-.col ul li:hover a{
-    color: goldenrod;
-}
-.col ul li i{
-    color: rgb(248, 179, 4);
-    
+    margin-left: 5px;
+    ;
+
 }
 
-footer form{
+.col ul li:hover a {
+    color: goldenrod;
+}
+
+.col ul li i {
+    color: rgb(248, 179, 4);
+
+}
+
+footer form {
     padding-bottom: 15px;
     display: flex;
     align-items: center;
@@ -131,21 +174,25 @@ footer form{
     border-bottom: 1px solid #ccc;
     margin-bottom: 50px;
 }
-footer form .far{
+
+footer form .far {
     font-size: 18px;
     margin-right: 10px;
 }
-footer form input{
+
+footer form input {
     width: 100%;
     background: transparent;
     color: #ccc;
     border: 0;
     outline: none;
 }
-footer form .far{
+
+footer form .far {
     color: goldenrod;
-} 
-form button{
+}
+
+form button {
     background: transparent;
     border: 0;
     outline: none;
@@ -153,7 +200,8 @@ form button{
     font-size: 25px;
     color: rgb(248, 179, 4);
 }
-.social-icons .fab{
+
+.social-icons .fab {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -165,21 +213,25 @@ form button{
     margin-right: 15px;
     cursor: pointer;
 }
-hr{
-    
+
+hr {
+
     border: solid rgb(248, 179, 4) 1px;
     border-bottom: 1px rgb(248, 179, 4);
 }
-.bak hr{
+
+.bak hr {
     border: none;
 }
-.copyright{
+
+.copyright {
     color: #fff;
     text-align: center;
     font-size: 18px;
 }
-.underline{
-    
+
+.underline {
+
     height: 5px;
     background: #767676;
     border-radius: 3px;
@@ -188,7 +240,8 @@ hr{
     left: 0;
     overflow: hidden;
 }
-.underline span{
+
+.underline span {
     width: 15px;
     height: 100%;
     background: #fff;
@@ -199,77 +252,109 @@ hr{
     position: absolute;
 }
 
-footer p{
+footer p {
     color: white;
     line-height: 30px;
 }
 
 /* mobile view */
 
-@media(max-width:1000px){
-    .d-sm-flex{
-        display: block;
+@media(max-width:1000px) {
+    .welcome {
+        width: 100%;
     }
-    .layout{
-        display: block;
-        padding-top:0;
+
+    .welcome p {
         font-size: 15px;
     }
-    .layout h2{
-        font-size: 12px;
+    .welcome button{
+        width: 300px;
     }
-    .goal{
+    .btn{
+        width: 30%;
+    }
+    .bg{
+        background-size: cover;
+    }
+
+    .welcome .text-warning {
+        font-size: 2rem;
+    }
+    .sec2{
+        padding-top: 10px;
+    }
+
+    .layout {
+        display: block;
+        padding-top: 0;
+    }
+    .layout p{
+        font-size: 15px;
+    }
+
+    .goal {
         border: solid 12px rgb(248, 179, 4);
         width: 100%;
         padding: 40px 50px;
     }
-    .vision{
+
+    .vision {
         width: 100%;
         margin-top: 20px;
         margin-left: 0;
         padding: 40px 50px;
     }
-    .mission{
+
+    .mission {
         border: solid 12px rgb(248, 179, 4);
         margin-top: 20px;
         margin-left: 0;
         width: 100%;
         padding: 40px 50px;
     }
-    .goal h2, .vision h2, .mission h2{
+
+    .goal h2,
+    .vision h2,
+    .mission h2 {
         font-weight: bold;
         font-size: 18px;
     }
-    footer{
+
+    footer {
         bottom: unset;
         padding: 0;
         margin: 0;
     }
-    .col{
+
+    .col {
         flex-basis: 100%;
-       
+
     }
-    .col h3{
+
+    .col h3 {
         margin-top: 0;
     }
 
-    .col p{
-        padding-top:0;
+    .col p {
+        padding-top: 0;
         padding-bottom: 0;
     }
-    .col:nth-child(2), .col:nth-child(3){
+
+    .col:nth-child(2),
+    .col:nth-child(3) {
         flex-basis: 100%;
     }
-    .bak{
+
+    .bak {
         width: 90%;
     }
-    .bak h1{
+
+    .bak h1 {
         font-size: 35px;
     }
-    
-    .copyright{
+
+    .copyright {
         font-size: 13px;
         padding-bottom: 0;
     }
 }
-
