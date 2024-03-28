@@ -32,6 +32,11 @@ footer img {
     font-weight: bold;
     letter-spacing: 2px
 }
+.welcome .btn-warning{
+    width:fit-content;
+    font-size: 20px;
+    padding: 10px;
+}
 .sec2{
     padding-top: 30px ;
 }
