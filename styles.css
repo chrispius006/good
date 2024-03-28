@@ -28,7 +28,7 @@ footer img {
 }
 
 .welcome .text-warning,
-.sec3 .text-warning {
+.sec3 .text-warning, .text ,.value .text-warning, .text{
     font-size: 4rem;
     font-weight: bold;
     letter-spacing: 2px
@@ -129,6 +129,13 @@ footer img {
     text-align: center;
     margin-right: 20px;
 }
+
+.value{
+    padding:50px;
+}
+/* .value ul{
+    font-size: 15px;
+} */
 
 footer {
     font-size: 30px;
@@ -302,9 +309,16 @@ footer p {
     }
 
     .welcome .text-warning,
-    .sec3 .text-warning {
+    .sec3 .text-warning{
         font-size: 2rem;
         text-align: center;
+    }
+    .text, .value .text-warning {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .value h1{
+        font-size: 2rem;
     }
 
     .sec2 {
@@ -366,6 +380,14 @@ footer p {
         text-align: center;
         margin-right: 0;
         margin-top: 20px;
+    }
+
+    .value{
+        padding:10px;
+        padding-top: 40px;
+    }
+    .value ul{
+        font-size: 15px;
     }
 
     footer {
