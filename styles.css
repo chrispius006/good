@@ -444,9 +444,7 @@ footer p {
         padding-bottom: 20px;
         background-color: goldenrod;
         border-radius: 45%;
-    }
-    .sec3 h2{
-        text-align: center;
+        margin-left: 50px;
     }
     .img {
         border-radius: 45%;
