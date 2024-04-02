@@ -28,7 +28,10 @@ footer img {
 }
 
 .welcome .text-warning,
-.sec3 .text-warning, .text ,.value .text-warning, .text{
+.sec3 .text-warning,
+.text,
+.value .text-warning,
+.text {
     font-size: 4rem;
     font-weight: bold;
     letter-spacing: 2px
@@ -126,41 +129,51 @@ footer img {
     margin-right: 20px;
 }
 
-.value{
-    padding:50px;
+.value {
+    padding: 50px;
 }
-.our{
+
+.our {
     width: 80%;
     margin: auto;
     margin-top: 40px;
 }
-.our .d-sm-flex{
+
+.our .d-sm-flex {
     margin-bottom: 40px;
 }
-.our_ser{
+
+.our_ser {
     display: none;
 }
-.our_services{
+
+.our_services {
     margin-left: 50px;
 }
-.our_services .lead{
+
+.our_services .lead {
     padding-top: 15px;
     padding-bottom: 15px;
 }
-.service{
-    height: 500px; 
+
+.service {
+    height: 500px;
     width: 600px;
 }
-.about{
+
+.about {
     text-align: center;
 }
-.position{
+
+.position {
     position: relative;
 }
-.fw-bold{
+
+.fw-bold {
     padding: 50px;
 }
-.position button{
+
+.position button {
     margin: 40px;
 }
 
@@ -197,6 +210,18 @@ footer {
 .loggo {
     width: 80px;
     margin-bottom: 30px;
+}
+
+.img {
+    background-color: goldenrod;
+    background-clip: border-box;
+    border-radius: 40%;
+    margin-top: 40px;
+}
+
+.img .img-fluid {
+    height: 450px;
+    width: auto;
 }
 
 .col h3 {
@@ -334,25 +359,31 @@ footer p {
     }
 
     .welcome .text-warning,
-    .sec3 .text-warning{
+    .sec3 .text-warning {
         font-size: 2rem;
         text-align: center;
     }
-    .text{
+
+    .text {
         color: darkslateblue;
         font-size: 4rem;
     }
-    .text, .value .text-warning {
+
+    .text,
+    .value .text-warning {
         font-size: 2rem;
         text-align: center;
     }
-    .text{
+
+    .text {
         color: darkslateblue;
     }
-    .text h1{
+
+    .text h1 {
         font-size: 60px;
     }
-    .value h1{
+
+    .value h1 {
         font-size: 2rem;
     }
 
@@ -403,12 +434,32 @@ footer p {
         margin-top: 30px;
     }
 
+    .sec3 h1 {
+        padding-left: 10px;
+    }
+
+    .sec3 .img-fluid {
+        width: 300px;
+        height: 300px;
+        padding-bottom: 20px;
+    }
+    .img {
+        border-radius: 45%;
+        margin-top: 20px;
+    }
+
+    .img .img-fluid {
+        width: 400px;
+        height: 350px;
+    }
+
     .sec4 {
         position: relative;
         top: 20px;
         /* margin-right: 0px; */
         margin-left: 0;
     }
+
     .sec4 .card {
         width: 100%;
         font-weight: bold;
@@ -417,67 +468,83 @@ footer p {
         margin-top: 20px;
     }
 
-    .value{
-        padding:10px;
+    .value {
+        padding: 10px;
         padding-top: 40px;
     }
-    .value ul{
+
+    .value ul {
         font-size: 15px;
     }
-    .our{
+
+    .our {
         width: 100%;
         margin: 0;
     }
-    .our .d-sm-flex{
+
+    .our .d-sm-flex {
         margin-bottom: 10px;
     }
-    .our_services{
+
+    .our_services {
         margin-left: 0;
     }
-    .our_services .lead{
+
+    .our_services .lead {
         padding-top: 0;
         padding-bottom: 0;
     }
-   
-    .our_services h1{
+
+    .our_services h1 {
         display: none;
     }
-    .our_services .text{
+
+    .our_services .text {
         font-size: 12px;
     }
-    .service{
+
+    .service {
         width: 100%;
-        height: auto; 
+        height: auto;
     }
-    .about{
+
+    .about {
         text-align: start;
     }
-    .about h2, .about p, .about button{
+
+    .about h2,
+    .about p,
+    .about button {
         margin: 10px;
         font-size: 15px;
     }
-    .our_ser{
+
+    .our_ser {
         display: block;
         font-weight: bold;
-        color:darkslateblue;
+        color: darkslateblue;
         text-align: center;
     }
-    .position{
+
+    .position {
         width: 95%;
         margin: auto;
-    } 
-    .position .image{
+    }
+
+    .position .image {
         display: none;
     }
-    .fw-bold{
-        padding:0;
+
+    .fw-bold {
+        padding: 0;
     }
-    .fw-bold p{
+
+    .fw-bold p {
         font-size: 2rem;
         padding-top: 15px;
     }
 
-    .position button{
+    .position button {
         margin: 0;
         margin-bottom: 25px;
         font-size: 15px;
