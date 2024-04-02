@@ -81,9 +81,7 @@ footer img {
 
 .vision h2,
 .vision p {
-
     color: black;
-
 }
 
 .mission {
@@ -98,9 +96,7 @@ footer img {
 
 .mission h2,
 .mission p {
-
     color: white;
-
 }
 
 .goal h2,
@@ -133,9 +129,31 @@ footer img {
 .value{
     padding:50px;
 }
-/* .value ul{
-    font-size: 15px;
-} */
+.our{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.our .d-sm-flex{
+    margin-bottom: 40px;
+}
+.our_ser{
+    display: none;
+}
+.our_services{
+    margin-left: 50px;
+}
+.our_services .lead{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.service{
+    height: 500px; 
+    width: 600px;
+}
+.about{
+    text-align: center;
+}
 
 footer {
     font-size: 30px;
@@ -199,7 +217,6 @@ footer {
 
 .col ul li i {
     color: rgb(248, 179, 4);
-
 }
 
 footer form {
@@ -251,7 +268,6 @@ form button {
 }
 
 hr {
-
     border: solid rgb(248, 179, 4) 1px;
     border-bottom: 1px rgb(248, 179, 4);
 }
@@ -267,7 +283,6 @@ hr {
 }
 
 .underline {
-
     height: 5px;
     background: #767676;
     border-radius: 3px;
@@ -388,6 +403,42 @@ footer p {
     }
     .value ul{
         font-size: 15px;
+    }
+    .our{
+        width: 100%;
+        margin: 0;
+    }
+    .our .d-sm-flex{
+        margin-bottom: 10px;
+    }
+    .our_services{
+        margin-left: 0;
+    }
+    .our_services .lead{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+   
+    .our_services h1{
+        display: none;
+    }
+    .our_services .text{
+        font-size: 12px;
+    }
+    .service{
+        width: 100%;
+        height: auto; 
+    }
+    .about{
+        text-align: start;
+    }
+    .about h2, .about p, .about button{
+        margin: 10px;
+        font-size: 15px;
+    }
+    .our_ser{
+        display: block;
+        font-size: 30px;
     }
 
     footer {
