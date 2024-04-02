@@ -480,6 +480,7 @@ footer p {
     .our {
         width: 100%;
         margin: 0;
+        margin-top: 0;
     }
 
     .our .d-sm-flex {
