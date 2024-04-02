@@ -154,6 +154,15 @@ footer img {
 .about{
     text-align: center;
 }
+.position{
+    position: relative;
+}
+.fw-bold{
+    padding: 50px;
+}
+.position button{
+    margin: 40px;
+}
 
 footer {
     font-size: 30px;
@@ -438,7 +447,25 @@ footer p {
     }
     .our_ser{
         display: block;
-        font-size: 30px;
+        font-weight: bold;
+        color:darkslateblue;
+        text-align: center;
+    }
+    .position .image{
+        display: none;
+    }
+    .fw-bold{
+        padding:0;
+    }
+    .fw-bold p{
+        font-size: 2rem;
+    }
+
+    .position button{
+        margin: 0;
+        margin-bottom: 20px;
+        font-size: 15px;
+        margin-top: -10px;
     }
 
     footer {
