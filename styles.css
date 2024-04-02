@@ -338,9 +338,19 @@ footer p {
         font-size: 2rem;
         text-align: center;
     }
+    .text{
+        color: darkslateblue;
+        font-size: 4rem;
+    }
     .text, .value .text-warning {
         font-size: 2rem;
         text-align: center;
+    }
+    .text{
+        color: darkslateblue;
+    }
+    .text h1{
+        font-size: 60px;
     }
     .value h1{
         font-size: 2rem;
